@@ -28,7 +28,7 @@ module OmniAuth
         hash = {
           name: user_identity['name'],
           email: user_identity['email'],    # Requires the identity.email scope
-          image: user_identity['image_192'], # Requires the identity.avatar scope
+          image: user_identity['image_512'], # Requires the identity.avatar scope
           team_name: team_identity['name']  # Requires the identity.team scope
         }
 
