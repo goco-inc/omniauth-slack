@@ -50,7 +50,7 @@ module OmniAuth
             team_info: team_info,         # Requires the team:read scope
             web_hook_info: web_hook_info,
             bot_info: bot_info,
-            access_token: access_token
+            access_token: access_token.params
           }
         }
       end
